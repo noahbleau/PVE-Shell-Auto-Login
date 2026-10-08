@@ -20,12 +20,15 @@ The file for the login function on the host shell is `/usr/share/perl5/PVE/API2/
 
 Two options are available : via script or manually. Choose what you prefer.
 
-<!-- This feature is not yet implemented -->
-<!--
 ### Running the script
 
 Running the script is easier and faster.
 
+> [!Note]
+> The script is not yet ready to be used.
+> *If you want to proceed anyway, change to the `script` branch in the repository.*
+
+<!--
 1. Download the script : `wget file.sh`
 2. Make it executable : `chmod +x file.sh`
 3. Run the script : `./file.sh`
