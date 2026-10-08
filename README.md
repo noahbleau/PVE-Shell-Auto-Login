@@ -1,4 +1,4 @@
-# ProxmoxVE Host User Shell Auto Login
+# ProxmoxVE User Shell Auto Login
 
 A simple bash script to add the current user to the shell auto login like the root user does.
 
