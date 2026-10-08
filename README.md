@@ -24,15 +24,12 @@ Two options are available : via script or manually. Choose what you prefer.
 
 Running the script is easier and faster.
 
-> [!Note]
-> The script is not yet ready to be used.
-> *If you want to proceed anyway, change to the `script` branch in the repository.*
+1. Download the script : `wget https://raw.githubusercontent.com/noahbleau/PVE-Shell-Auto-Login/refs/heads/script/pve-auto-login.sh`
 
-<!--
-1. Download the script : `wget file.sh`
-2. Make it executable : `chmod +x file.sh`
-3. Run the script : `./file.sh`
--->
+   > **This downloads from the `script` branch.**
+
+3. Make it executable : `chmod +x pve-auto-login.sh`
+4. Run the script : `./pve-auto-login.sh`
 
 ### Manually editing the file
 
