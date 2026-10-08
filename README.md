@@ -1,6 +1,12 @@
 # ProxmoxVE User Shell Auto Login
 
-A simple bash script to add the current user to the shell auto login like the root user does.
+A simple bash script to add the current user to the shell auto login like the root user does. This allows the user to be automatically logged in to the shell without entering credentials.
+
+### Before
+![Before enabling auto login](https://raw.githubusercontent.com/noahbleau/PVE-Shell-Auto-Login/refs/heads/main/img/before.png)
+
+### After
+![After enabling auto login](https://raw.githubusercontent.com/noahbleau/PVE-Shell-Auto-Login/refs/heads/main/img/after.png)
 
 The file for the login function on the host shell is `/usr/share/perl5/PVE/API2/Nodes.pm`. *The source for this file is available here : [proxmox/pve-manager/PVE/API2/Nodes.pm](https://github.com/proxmox/pve-manager/blob/master/PVE/API2/Nodes.pm).*
 
